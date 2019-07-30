@@ -1,0 +1,105 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+}
+li a{
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 40px;
+    color: black;
+}
+.t{
+    color: crimson;
+    padding-right: 620px;
+    display: flex;
+    font-family: 'monotype corsiva';
+    font-size: 20px;
+}
+.ton{
+    background-color: crimson;
+    color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+.ton:hover{
+    background-color: palevioletred
+}
+.top{
+    background-color: crimson;
+    height: 300px;
+}
+.write{
+    padding-top: 50px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: 'lucida handwriting';
+}
+.sub{
+    height: 270px;
+    width: 250px;
+    padding: 10px;
+}
+.two{
+    display: flex;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+   /* border: 10px gray;*/
+    padding: 2px;
+    margin-top: 20px;
+}
+.head,.foot{
+    color: crimson;
+    font-family: 'jokerman'
+}
+.image{
+    width: 320px;
+    height: 200px;
+}
+.text{
+    width: 307px;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+.three{
+    display: flex;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    border: 10px gray;
+    padding: 2px;
+    margin-top: 40px;
+}
+.box{
+    box-shadow: 2px 2px 20px crimson;
+}
+.fifth{
+    background-color: crimson;
+    height: 70px;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+}
+.but{
+    background-color: rgb(219, 214, 214);
+    color: crimson;
+    height: 36px;
+    width: 90px;
+}
+.but:hover{
+    background-color: palevioletred;
+}
+input{
+    width: 600px;
+    height: 30px;
+}
+.last{
+    text-align: center;
+    color: crimson;
+    height: 30px;
+    font-family: 'jokerman'
+}
