@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=>, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+        function regrade(){
+            if (score>100){
+                alert ("enter a number from 0-100");
+                getscore();
+            }
+        else if (score>=0 && score<=35){
+            alert(name + "You have an F in" + subject);
+        }
+        else if (score>=36 && score<=45){
+            alert(name + "You have an D in" + subject);
+        }
+        else if (score>=46 && score<=55){
+            alert(name + "You have an C in" + subject);
+        }
+        else if (score>=56 && score<=69){
+            alert(name + "You have an B in" + subject);
+        }
+        else if (score>=70 && score<=100){
+            alert(name + "Excellent! You have an A in" + subject);
+        }
+        else{
+            alert(name + " please confirm your score and try again ");
+            getscore();
+        }
+        }
+
+        function getscore(){
+            score =prompt("enter a number from 0-100");
+            regrade();
+}
+
+    let name = prompt("Type In Your Name")
+    alert("Welcome  " +   name)
+    let subject = prompt("Put In Subject")
+    let score = prompt("Put In Score")
+    if (score>100){
+        alert ("enter a number from 0-100");
+        getscore();
+    }
+    else if (score>=0 && score<=35){
+            alert(name + " You have an F in " + subject);
+        }
+        else if (score>=36 && score<=45){
+            alert(name + " You have an D in " + subject);
+        }
+        else if (score>=46 && score<=55){
+            alert(name + " You have an C in " + subject);
+        }
+        else if (score>=56 && score<=69){
+            alert(name + " You have an B in " + subject);
+        }
+        else if (score>=70 && score<=100){
+            alert(name + " Excellent! You have an A in " + subject);
+        }
+        </script>
+    </body>
+</html>
